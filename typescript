@@ -1,0 +1,115 @@
+Script started on Mon 24 Jun 2013 03:05:49 PM CDT
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/Java/LinkedListDequeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/Java/LinkedListDeque$ make clean DequeDemo
+rm -f Deque\*.class
+rm -f *.class
+javac -Xlint DequeDemo.java
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/Java/LinkedListDequeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/Java/LinkedListDeque$ make run
+java DequeDemo
+Command> pushFront
+Integer> 1
+String> 1
+Command> empty
+false
+Command> display
+1 1
+Command> front
+1
+1
+Command> back
+1
+1
+Command> popFront
+1
+1
+Command> front
+Deque is empty.
+Command> back
+Deque is empty.
+Command> pushBack
+Integer> 5
+String> 5
+Command> pushFront
+Integer> 4
+String> 4
+Command> display
+4 4
+5 5
+Command> pushFront
+Integer> 3
+String> 3
+Command> pushBack
+Integer> 6
+String> 6
+Command> display
+3 3
+4 4
+5 5
+6 6
+Command> pushFront
+Integer> 2
+String> 2
+Command> pushBack
+Integer> 7
+String> 7
+Command> display
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+Command> popback
+7
+7
+Command> display
+2 2
+3 3
+4 4
+5 5
+6 6
+Command> popfront
+2
+2
+Command> p display
+3 3
+4 4
+5 5
+6 6
+Command> popback
+6
+6
+Command> popback
+5
+5
+Command> popback
+4
+4
+Command> display
+3 3
+Command> popback
+3
+3
+Command> popback
+Deque is empty.
+Command> pushfront
+Integer> 1
+String> 1
+Command> pufsh   shfront
+Integer> 2
+String> 2
+Command> display
+2 2
+1 1
+Command> popfront
+2
+2
+Command> popfront
+1
+1
+Command> empty
+true
+Command> exit
+]0;ka-son@kason-Lenovo-IdeaPad-S300: ~/Documents/Java/LinkedListDequeka-son@kason-Lenovo-IdeaPad-S300:~/Documents/Java/LinkedListDeque$ exit
+exit
+
+Script done on Mon 24 Jun 2013 03:08:20 PM CDT
