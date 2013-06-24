@@ -2,7 +2,7 @@ Java_LinkedListDeque
 ====================
 
 ####The Deque class which is an abbreviation for double-ended queue, is a sequential container that functions like a queue (or a stack) at both ends.
-####The Stack class contains the following functionalities.
+####The Deque class contains the following functionalities.
 *  Deque: Creates an empty deque.
 *  empty: Checks if the deque is empty.
 *  front: Looks at the object at the top of this stack without removing it from the stack.
